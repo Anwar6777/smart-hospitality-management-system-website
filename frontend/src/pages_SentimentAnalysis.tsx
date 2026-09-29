@@ -1,4 +1,4 @@
-import { FormEvent, useState } from "react";
+import { useState, type FormEvent } from "react";
 import { predictSentiment } from "./services/api";
 
 type SentimentModel = "tfidf_logistic_regression" | "bilstm" | "bilstm_glove";
