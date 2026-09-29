@@ -10,4 +10,4 @@ scikit-learn==1.8.0
 joblib==1.5.2
 
 Pillow==11.3.0
-tensorflow==2.20.0
+tensorflow==latest
