@@ -1,0 +1,36 @@
+{
+  "model": "random_forest",
+  "target": "Total",
+  "feature_columns": [
+    "day_of_month",
+    "is_weekend",
+    "month_sin",
+    "month_cos",
+    "dow_sin",
+    "dow_cos",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_7",
+    "lag_14",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_14",
+    "rolling_mean_30"
+  ],
+  "history_rows": 763,
+  "train_rows": 610,
+  "test_rows": 153,
+  "metrics": {
+    "MAE": 12.580533497181694,
+    "RMSE": 17.122723704815744,
+    "MAPE": 13.277442872417042,
+    "R2": 0.03669204450861541
+  },
+  "forecast_method": "recursive one-step forecasting",
+  "horizon_options": [
+    7,
+    14,
+    30
+  ]
+}

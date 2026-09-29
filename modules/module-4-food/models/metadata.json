@@ -1,0 +1,8 @@
+{
+  "model": "MobileNetV2 transfer learning",
+  "input_size": [224, 224],
+  "num_classes": 10,
+  "classes_source": "Food-101, first 10 alphabetically as defined by 01_data_preparation.py",
+  "artifact_status": "not_in_source_zip",
+  "expected_artifact": "mobilenetv2_food_classifier.keras"
+}

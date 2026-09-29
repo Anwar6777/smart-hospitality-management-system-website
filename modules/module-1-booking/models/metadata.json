@@ -1,0 +1,22 @@
+{
+  "model": "random_forest",
+  "threshold": 0.5,
+  "top_countries": [
+    "PRT",
+    "GBR",
+    "FRA",
+    "ESP",
+    "DEU",
+    "ITA",
+    "IRL",
+    "BEL",
+    "BRA",
+    "NLD",
+    "USA",
+    "CHE",
+    "CN",
+    "AUT",
+    "SWE"
+  ],
+  "n_features": 58
+}

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+tensorflow_env/
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+
+# Logs
+*.log
+
+# ML / data artifacts - review before committing large files
+*.h5
+*.keras
+*.pkl
+*.joblib
+data/raw/
