@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     app_name: str = "Smart Hospitality Management System"
     app_env: str = "development"
     api_prefix: str = "/api"
-    cors_origins: list[str] = ["http://localhost:5173"]
+    cors_origins: list[str] = ["https://smart-hospitality-management-system.onrender.com"]
     database_url: str = "postgresql://postgres:postgres@localhost:5432/smart_hospitality"
     secret_key: str = "change-me-in-development"
 
