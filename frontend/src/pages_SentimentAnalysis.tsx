@@ -48,6 +48,7 @@ export default function SentimentAnalysis() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
+  // FIX: Explicitly type the event argument with the native HTML element binding
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
     setError("");
@@ -186,4 +187,5 @@ export default function SentimentAnalysis() {
       )}
     </section>
   );
+
 }
